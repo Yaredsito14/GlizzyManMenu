@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(255, 204, 128);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.text {
+  flex: 1;
+  max-width: 60%;
+}
+
+.photo img {
+  border: 5px solid black;
+}
+div {
+    flex: auto;
+}
